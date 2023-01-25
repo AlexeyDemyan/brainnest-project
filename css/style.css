@@ -1,0 +1,148 @@
+/* Commons */
+
+@font-face {
+    font-style: normal;
+    font-weight: 400;   
+    font-family: 'Roboto';
+    font-display: swap;  
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype'); 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.section__inner,
+.information__illustrations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Commons end */
+
+/* Header */
+
+.header {
+    padding-top: 20px;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.nav__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 30px;
+}
+
+/* Intro */
+
+.intro__info {
+    padding-right: 50px;
+}
+
+.intro__title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+/* Information */
+
+.information {
+    background-color: #F9FAF8;
+}
+
+.information__header {
+    color: #1F2937;
+}
+
+.information__inner {
+    flex-direction: column;
+}
+
+.information__illustrations--image {
+    border: 3px #3882F6 solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.information__illustrations--subtext {
+    color: #1F2937;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote__text {
+    font-style: italic;
+}
+
+/* Sign Up */
+
+.signup {
+    background-color: #F9FAF8;
+    padding: 100px 200px;
+}
+
+.signup__area {
+    background-color: #3882F6;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+}
+
+
+
+
+
