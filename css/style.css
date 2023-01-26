@@ -28,6 +28,7 @@ h1, h2 {
 
 section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .section__inner,
@@ -42,9 +43,12 @@ button {
     height: 40px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 20%;
+    border-radius: 10px;
     text-align: center;
     vertical-align: middle;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 button:hover {
@@ -75,13 +79,13 @@ button:hover {
 
 /* Intro */
 
-.intro__info {
-    padding-right: 50px;
-}
-
 .intro__title {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.intro__inner {
+    gap: 5%;
 }
 
 /* Information */
@@ -92,17 +96,30 @@ button:hover {
 
 .information__header {
     color: #1F2937;
+    margin-bottom: 50px;
+    font-size: 36px;
 }
 
 .information__inner {
     flex-direction: column;
 }
 
+.information__illustrations--item {
+    max-width: 20%;
+    text-align: center;
+}
+
+.information__illustrations {
+    display: flex;
+    justify-content: space-around;
+}
+
 .information__illustrations--image {
-    border: 3px #3882F6 solid;
-    width: 50px;
-    height: 50px;
-    border-radius: 20%;
+    border: 5px #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 0 auto;
 }
 
 .information__illustrations--subtext {
@@ -114,6 +131,7 @@ button:hover {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-size: 36px;
 }
 
 .quote__inner {
@@ -125,21 +143,41 @@ button:hover {
     font-style: italic;
 }
 
+.quote__signature {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
 /* Sign Up */
 
 .signup {
     background-color: #F9FAF8;
-    padding: 100px 200px;
 }
 
 .signup__area {
     background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.signup__inner {
+    width: 100%;
+}
+
+.signup__button {
+    border-color: #F9FAF8;
 }
 
 /* Footer */
 
 .footer {
     text-align: center;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
