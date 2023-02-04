@@ -1,24 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Project</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../fonts/Roboto-Regular.ttf" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Awesome Website</title>
+  </head>
+  <body>
+    <!-- Header -->
 
-    <h1>My favorite stuff</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner section__inner">
+          <div class="header__logo">Header Logo</div>
+          <nav class="nav">
+            <a href="#" class="nav__link">header link one</a>
+            <a href="#" class="nav__link">header link two</a>
+            <a href="#" class="nav__link">header link three</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-    <a href="./pages/favorite-stuff.html">Check it out!</a>
-    <br>
-    <br>
-    <br>
-    <a href="./pages/headings.html">Headings</a>
-    <br>
-    <br>
-    <br>
-    <a href="./pages/awesome.html">Awesome Website</a>
-    
-</body>
+    <!-- Main -->
+
+    <main class="main">
+      <!-- Intro -->
+
+      <section class="intro">
+        <div class="container">
+          <div class="intro__inner section__inner">
+            <div class="intro__info">
+              <h1 class="intro__title">This website is awesome</h1>
+              <p class="intro__text">
+                This website has some subtext that goes here under the main
+                title. It's a smaller font and the color is lower contrast
+              </p>
+              <button class="intro__button">Sign up</button>
+            </div>
+            <div class="intro__image">
+              <img src="../images/placeholder.JPG" alt="intro image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Play Area  -->
+
+      <section class="information">
+        <div class="container">
+          <div class="information__inner section__inner">
+            <div class="information__header">
+              <h2>Rock, Paper, Scissors. Make a choice:</h2>
+            </div>
+            <div class="information__illustrations">
+              <div class="information__illustrations--item player__choice--item">
+                <div data-choice="Paper" class="information__illustrations--image information__illustrations--paper information__illustrations--choice">
+                  <img src="./images/paper.png" alt="paper">
+                </div>
+              </div>
+              <div class="information__illustrations--item player__choice--item">
+                <div data-choice="Scissors" class="information__illustrations--image information__illustrations--scissors information__illustrations--choice">
+                  <img src="./images/scissors.png" alt="scissors">
+                </div>
+              </div>
+              <div class="information__illustrations--item player__choice--item">
+                <div data-choice="Rock" class="information__illustrations--image information__illustrations--rock information__illustrations--choice">
+                  <img src="./images/rock.png" alt="rock">
+                </div>
+              </div>
+            </div>
+            <div class="information__header">
+              <h3>Computer Choice:</h3>
+            </div>
+            <div class="information__illustrations--item information__illustrations--computerchoice">
+              <div class="information__illustrations--image"></div>
+          </div>
+          <button class="restart__button">Restart</button>
+        </div>
+      </section>
+
+      <!-- Play area -->
+
+      <section class="quote">
+        <div class="container">
+          <div class="quote__inner section__inner">
+            <div class="quote__text">
+              <p class="result__text">
+               Result of the game will be here
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sign Up -->
+
+      <section class="signup">
+        <div class="container">
+          <div class="signup__area">
+            <div class="signup__inner section__inner">
+              <div class="signup__text">
+                <h2>Call to action! It's time!</h2>
+                <p>
+                  Sign up for our product by clicking that button right over
+                  there!
+                </p>
+              </div>
+              <button class="signup__button">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright &#169;</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./game-script.js"></script>
+  </body>
 </html>

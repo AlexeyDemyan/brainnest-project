@@ -112,6 +112,7 @@ button:hover {
 .information__illustrations {
     display: flex;
     justify-content: space-around;
+    gap: 60px;
 }
 
 .information__illustrations--image {
@@ -124,6 +125,37 @@ button:hover {
 
 .information__illustrations--subtext {
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.information__illustrations--image img{
+    max-width:100%;
+}
+
+.information__illustrations--paper img {
+    padding-top: 5px;
+}
+
+.information__illustrations--scissors img {
+    padding-top: 20px;
+}
+
+.information__illustrations--rock img {
+    padding-top: 5px;
+}
+
+.restart__button {
+    margin-top: 20px;
+}
+
+.information__illustrations--image :hover {
+    cursor: pointer;
+    border-color:antiquewhite;
+}
+
+.information__illustrations--chosen {
+    border-width: 10px;
 }
 
 /* Quote */
