@@ -72,13 +72,19 @@ const checkIfIntegerEvenOrOdd = (integer) => {
   return message
 };
 
-console.log(compareIntegers(1, 2));
-console.log(compareIntegers(1.5, 2));
-console.log(compareIntegers('One', 2));
-console.log(compareIntegers(3, 3));
-console.log(compareIntegers(600, -300));
+// console.log(compareIntegers(1, 2));
+// console.log(compareIntegers(1.5, 2));
+// console.log(compareIntegers('One', 2));
+// console.log(compareIntegers(3, 3));
+// console.log(compareIntegers(600, -300));
 
-console.log(checkIfIntegerEvenOrOdd('Three'));
-console.log(checkIfIntegerEvenOrOdd(4.5));
-console.log(checkIfIntegerEvenOrOdd(101));
-console.log(checkIfIntegerEvenOrOdd(1000));
+// console.log(checkIfIntegerEvenOrOdd('Three'));
+// console.log(checkIfIntegerEvenOrOdd(4.5));
+// console.log(checkIfIntegerEvenOrOdd(101));
+// console.log(checkIfIntegerEvenOrOdd(1000));
+
+let arr = [ 1, 2, 300, 20, 505, 3000, 11, 404, 14, 333, 444, 5055, 5051];
+
+let newarr = arr.map(elt => elt += 1);
+
+console.log(newarr);
